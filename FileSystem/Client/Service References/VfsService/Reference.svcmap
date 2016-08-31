@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="28928052-2af1-420a-89af-be1b1ac1bc6a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:29620/VirtualFileSystem.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="VirtualFileSystem.wsdl" MetadataType="Wsdl" ID="ce317e80-1dce-44ca-9bfe-a5bcb00f861c" SourceId="1" SourceUrl="http://localhost:29620/VirtualFileSystem.svc?wsdl" />
+    <MetadataFile FileName="VirtualFileSystem.xsd" MetadataType="Schema" ID="f6f0d62c-3654-433a-ba30-d044b9728254" SourceId="1" SourceUrl="http://localhost:29620/VirtualFileSystem.svc?xsd=xsd0" />
+    <MetadataFile FileName="VirtualFileSystem.disco" MetadataType="Disco" ID="06313e75-a454-460a-a6cb-8fbfcdbaeda3" SourceId="1" SourceUrl="http://localhost:29620/VirtualFileSystem.svc?disco" />
+    <MetadataFile FileName="VirtualFileSystem1.xsd" MetadataType="Schema" ID="ed69a816-3c09-4ec8-8d02-8268a0c1980b" SourceId="1" SourceUrl="http://localhost:29620/VirtualFileSystem.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
